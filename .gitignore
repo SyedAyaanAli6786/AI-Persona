@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+.next/
+frontend/.next/
+
+# ChromaDB
+chroma_db/
+
+# Data (keep placeholder, not actual resume)
+data/*.pdf
+
+# Eval results
+eval/*.json
+
+# Vapi config (may contain secrets)
+voice/assistant_config.json
+
+# OS
+.DS_Store
+*.swp

@@ -1,0 +1,47 @@
+version: "3.9"
+
+volumes:
+  chroma_db:
+
+services:
+  # ── RAG Ingestion (runs once, then exits) ─────────────────
+  rag-init:
+    build:
+      context: .
+      dockerfile: rag/Dockerfile
+    env_file: .env
+    volumes:
+      - chroma_db:/app/chroma_db
+      - ./data:/app/data:ro
+    restart: "no"
+
+  # ── FastAPI Backend ────────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: .env
+    environment:
+      - CHROMA_PERSIST_DIR=/app/chroma_db
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_db:/app/chroma_db
+    depends_on:
+      rag-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  # ── Next.js Frontend ──────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://backend:8000
+    env_file: .env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped

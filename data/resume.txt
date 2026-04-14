@@ -1,0 +1,89 @@
+Syed Ayaan Ali
+9430029400 | aliaayan6786@gmail.com | LinkedIn: linkedin.com/in/syed-ayaan-ali | GitHub: github.com/SyedAyaanAli6786
+
+EDUCATION
+
+Scaler School Of Technology — Bangalore, Karnataka
+Bachelors and Masters in Computer Science | Jul. 2023 – Present
+
+Birla Institute of Technology and Science (BITS)
+Bachelors in Computer Science | Jul. 2023 – Present
+
+PROJECTS
+
+Trello-style Task Management System | Next.js, TypeScript, Node.js, Prisma, PostgreSQL, Vercel
+Demo: https://trello-clone-ar1i.vercel.app | GitHub: https://github.com/SyedAyaanAli6786/Trello-style_Task-Management-System
+- Designed a task management system to reduce task fragmentation and improve workflow organization.
+- Modeled scalable relational architecture (Board → List → Card → Member) to support structured collaboration.
+- Built type-safe APIs and modular backend services, enabling reliable and maintainable feature expansion.
+- Implemented drag-and-drop prioritization, improving usability and task reordering efficiency.
+- Deployed production-ready application with validation, error handling, and optimized API performance.
+
+Kindle Review Sentiment Analysis System | Python, NLP, Scikit-learn
+GitHub: https://github.com/SyedAyaanAli6786/Kindle-Sentimental-Analysis
+- Built a sentiment analysis system to identify user satisfaction trends in book reviews, enabling data-driven insights.
+- Processed raw text using NLP techniques (tokenization, TF-IDF) for structured model input.
+- Trained classification models (Logistic Regression, Naive Bayes) to analyze user sentiment patterns.
+- Evaluated performance using precision, recall, and F1-score to ensure reliable predictions.
+- Visualized trends to highlight actionable insights for content improvement.
+
+Crypto Currency Data Fetcher | Python, CoinGecko API
+GitHub: https://github.com/SyedAyaanAli6786/CryptoCurrencyDataFetcher
+- Built a Python-based script to retrieve live and historical cryptocurrency data via CoinGecko API.
+- Handled API requests and exceptions to ensure accurate and reliable data fetching at scale.
+- Utilized pandas for efficient data manipulation, filtering, and processing of crypto trends.
+- Generated interactive price visualizations using Matplotlib for clear insight representation.
+- Structured code into reusable modules for improved scalability and code maintenance.
+
+Expense Tracker | HTML, CSS, JavaScript
+Demo: https://expense-tracker-wine-phi.vercel.app | GitHub: https://github.com/SyedAyaanAli6786/Expense-Tracker
+- Created a modern expense tracking tool using HTML, CSS, and JavaScript for daily use.
+- Enabled users to dynamically add, delete, and compute income and expense transactions.
+- Designed a visually appealing and mobile-responsive UI for enhanced user experience.
+- Used DOM manipulation to update transaction history and financial summary in real-time.
+- Packaged the tracker as a shareable GitHub project with clean and readable codebase.
+
+AI Notes | TypeScript, Next.js
+Demo: https://ai-notes-xi-jet.vercel.app | GitHub: https://github.com/SyedAyaanAli6786/AI-Notes
+- AI-powered notes application built with Next.js and TypeScript.
+
+ChatBot | Python
+Demo: https://chat-bot-three-teal.vercel.app | GitHub: https://github.com/SyedAyaanAli6786/ChatBot
+- Python-powered chatbot application.
+
+Task Manager (Full-Stack) | Node.js, Express, JavaScript, React
+GitHub Backend: https://github.com/SyedAyaanAli6786/task-manager-backend
+GitHub Frontend: https://github.com/SyedAyaanAli6786/task-manager-frontend
+Demo: https://task-manager-frontend-sand.vercel.app
+- Full-stack task manager with separate frontend and backend services.
+
+Quiz App | JavaScript
+Demo: https://quiz-app-chi-azure.vercel.app | GitHub: https://github.com/SyedAyaanAli6786/Quiz-App
+- Interactive quiz application built with vanilla JavaScript.
+
+Medical Website | HTML, CSS
+Demo: https://medical-website-vert.vercel.app | GitHub: https://github.com/SyedAyaanAli6786/Medical-Website
+- Modern responsive medical website.
+
+TECHNICAL SKILLS
+
+Languages: SQL, Python, Java, JavaScript
+Frontend: React.js, HTML, CSS
+Backend: Node.js, Express.js, FastAPI, REST APIs
+Databases: PostgreSQL, MySQL
+Machine Learning: Time Series Analysis, Deep Learning, NLP, Data Analysis
+Tools & Technologies: Git, Prisma (ORM), Linux, Docker (Basics)
+Core Concepts: Data Structures & Algorithms, OOP, System Design (Basics)
+
+OPEN SOURCE CONTRIBUTIONS
+
+- layer5 (Apache-2.0): Contributed to Layer5 open source infrastructure tool
+- ethereum-org-website: Contributed to official Ethereum.org website (MIT License)
+- neutralinojs.github.io: Contributed to Neutralinojs documentation site (MIT License)
+
+INTERESTS / LEARNING
+
+- AI/ML Engineering, Deep Learning, NLP
+- System Design, Low-Level Design (Java OOP)
+- DevOps (Docker, Linux, CI/CD)
+- Data Science and Machine Learning (Scikit-learn, Pandas, Matplotlib)

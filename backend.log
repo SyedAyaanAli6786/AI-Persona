@@ -1,0 +1,106 @@
+INFO:     Will watch for changes in these directories: ['/home/ayaan/Desktop/AI-Persona']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [82736] using WatchFiles
+INFO:     Started server process [82755]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Retriever import error: 'OPENAI_API_KEY'
+INFO:     127.0.0.1:53126 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53132 - "GET /health HTTP/1.1" 200 OK
+Gemini API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 55.658178456s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}
+INFO:     127.0.0.1:33696 - "POST /chat HTTP/1.1" 502 Bad Gateway
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [82755]
+INFO:     Started server process [82884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Retriever import error: 'OPENAI_API_KEY'
+Gemini API error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+INFO:     127.0.0.1:42216 - "POST /chat HTTP/1.1" 502 Bad Gateway
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [82884]
+INFO:     Started server process [83100]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Retriever import error: 'OPENAI_API_KEY'
+INFO:     127.0.0.1:58656 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50444 - "POST /chat HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'rag/ingest.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [83100]
+WARNING:  WatchFiles detected changes in 'rag/retriever.py'. Reloading...
+INFO:     Started server process [83395]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [83409]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'rag/ingest.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [83409]
+WARNING:  WatchFiles detected changes in 'rag/retriever.py'. Reloading...
+INFO:     Started server process [83703]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [83713]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'rag/ingest.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [83713]
+INFO:     Started server process [84075]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:42682 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46746 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46746 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41284 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42742 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38638 - "POST /chat HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'voice/setup_vapi.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [84075]
+INFO:     Started server process [235613]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'voice/setup_vapi.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [235613]
+INFO:     Started server process [236661]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'voice/setup_vapi.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [236661]
+INFO:     Started server process [240043]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:38426 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38956 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37534 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57626 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38898 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43666 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53226 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56926 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38346 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40542 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52030 - "GET /health HTTP/1.1" 200 OK
